@@ -1,38 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="5dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="5dp"
     android:orientation="vertical"
     tools:context="com.example.android.arduinoprojects.MenuPrincipal">
 
-    <ImageView
-        android:id="@+id/logoArduino"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="2dp"
-        android:background="#E6EE9C"
-        android:src="@drawable/LogoArduino2"/>
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="wrap_content"
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="58dp"
+            android:layout_weight="0.3"
+            android:background="#E6EE9C"
+            android:src="@drawable/arduino_logo"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:paddingLeft="5dp"
+            android:text="Banco de Dados de Projetos"
+            android:background="#E6EE9C"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:text="Meus Projetos Arduino"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:id="@+id/textView" />
+        android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="Veiculo Autônomo"/>
+        <!-- Bloco projeto1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#212121"
+            android:text="Projeto 1: Veiculo Autônomo"/>
 
-</RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.3"
+                android:paddingLeft="10dp"
+                android:background="#E1F5FE"
+                android:src="@drawable/projeto1"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.7"
+                android:background="#E1F5FE"
+                android:text="Clique Aqui"/>
+        </LinearLayout>
+
+        <!-- Bloco Projeto2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#212121"
+            android:text="Projeto 2: Robô Quadripod"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="5dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.3"
+                android:paddingLeft="10dp"
+                android:background="#E1F5FE"
+                android:src="@drawable/projeto2"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.7"
+                android:background="#E1F5FE"
+                android:text="Clique Aqui"/>
+        </LinearLayout>
+
+        <!-- Bloco Projeto3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#212121"
+            android:text="Projeto 3: Garra Robótica"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="100dp"
+            android:layout_weight="0.3"
+            android:paddingLeft="10dp"
+            android:background="#E1F5FE"
+            android:src="@drawable/projeto3"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.7"
+                android:background="#E1F5FE"
+                android:text="Clique Aqui"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="210dp"
+            android:background="#E6EE9C"
+            android:text="Mais Projetos >>"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
