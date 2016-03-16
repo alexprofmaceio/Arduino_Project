@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Arduino Projects</string>
+    <string name="title_activity_activity_projeto1">Projeto 1</string>
 </resources>
