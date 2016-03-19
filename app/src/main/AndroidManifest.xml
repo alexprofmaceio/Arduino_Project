@@ -24,6 +24,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.arduinoprojects.MenuPrincipal" />
         </activity>
+        <activity android:name=".ActivityProjeto2" />
+        <activity android:name=".ActivityProjeto3"></activity>
     </application>
 
 </manifest>

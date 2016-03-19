@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.arduinoprojects.ActivityProjeto1"
-    tools:showIn="@layout/activity_activity_projeto1"
+    tools:showIn="@layout/activity_activity_projeto3"
     android:orientation="vertical">
 
     <LinearLayout
@@ -24,7 +24,7 @@
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:textSize="16sp"
-            android:text="Projeto 1: Veiculo Autônomo" />
+            android:text="Projeto 2: Robô Quadripod" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 android:layout_marginLeft="5dp"
                 android:textColor="#000000"
                 android:textSize="14sp"
-                android:text="Neste projeto vamos criar um pequeno veiculo movido a bateria e que usa dois servo motores de rotação para se deslocar." />
+                android:text="Neste projeto vamos criar um robô com palitos de picole que se desloca sobre 4 patas." />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -78,12 +78,12 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/p01_03"/>
 
-                    <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:scaleType="fitCenter"
-                        android:layout_marginLeft="10dp"
-                        android:src="@drawable/p01_04"/>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/p01_04"/>
             </LinearLayout>
 
             <LinearLayout
@@ -117,4 +117,3 @@
     </LinearLayout>
 
 </ScrollView>
-

@@ -19,4 +19,14 @@ public class MenuPrincipal extends AppCompatActivity {
         Intent intentProjeto1 = new Intent(this, ActivityProjeto1.class);
         startActivity(intentProjeto1);
     }
+
+    public void verProjeto2 (View v) {
+        Intent intentProjeto2 = new Intent(this, ActivityProjeto2.class);
+        startActivity(intentProjeto2);
+    }
+
+    public void verProjeto3 (View v) {
+        Intent intentProjeto3 = new Intent(this, ActivityProjeto3.class);
+        startActivity(intentProjeto3);
+    }
 }
